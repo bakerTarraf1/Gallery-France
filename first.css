@@ -1,0 +1,161 @@
+
+
+body{
+background-image: url("pho.avif");
+background-size: cover;
+display:flex;
+justify-content:center;
+align-items:center;
+
+}
+
+
+
+
+
+
+
+a:hover{
+color:red;
+}
+a:active{
+color:blue;
+}
+.wrapper{
+    position:relative;
+    width: 370px;
+    height: 200px;
+    background:transparent;
+    border:2px solid rgba(255,255,255,.5);
+    border-radius:20px;
+    backdrop-filter:blur(20px);
+    text-align:center;
+    box-shadow:0 0 30px rgba(0,0,0,.5);
+
+    justify-content:center;
+    align-items:center;
+}
+  a{
+    color:white;
+  } 
+  #b{
+    color:white;
+    font-size:30px;
+    font-family:"italic";
+  }
+  #t{
+    color:red;
+    font-size:30px;
+    font-family:"italic";
+   margin:0;
+   padding:0;
+   text-align:center;
+  }
+
+
+
+
+
+  .pc{
+    border:none;
+    outline:none;
+    height:40px;
+    width:800px;
+    background:red;
+    font-size:30px;
+    border-radius:3px;
+
+}
+.pc:hover{
+    cursor:pointer;
+    background:blue;
+    box-shadow:0 0 5px blue,
+               0 0 20px blue,
+               0 0 60px blue,
+               0 0 0 1px blue;
+
+}
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.gallery-container {
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery-image {
+  width: 100%;
+  max-height: 600px;
+  object-fit: contain;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+.p{
+  border:none;
+  outline:none;
+  height:50px;
+  width:100px;
+  background:red;
+  font-size:30px;
+  border-radius:10px;
+  padding:10px;
+
+
+
+}
+.p:hover{
+  cursor:pointer;
+  background:blue;
+  box-shadow:0 0 5px blue,
+             0 0 20px blue,
+             0 0 60px blue,
+             0 0 0 1px blue;
+
+}
